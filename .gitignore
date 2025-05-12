@@ -1,0 +1,38 @@
+# VS Code files
+.vscode/
+*.code-workspace
+
+# Blender files
+blender/
+
+# Unreal project (same name for now)
+neon_rotator/
+
+# Models directory
+models/
+
+# Test directory
+test/
+
+# Add other common files to ignore
+# Logs
+logs
+*.log
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Hardware configuration files (contain sensitive credentials)
+HW_config.h
+**/HW_config.h
